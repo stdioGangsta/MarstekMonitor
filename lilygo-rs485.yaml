@@ -364,6 +364,7 @@ sensor:
     device_class: power
     state_class: measurement
     accuracy_decimals: 0
+    skip_updates: 2 # 10 seconds
 
   - name: "Marstek Battery State Of Charge"
     platform: modbus_controller
@@ -439,6 +440,7 @@ sensor:
     device_class: power
     state_class: measurement
     accuracy_decimals: 0
+    skip_updates: 2 # 10 seconds
 
 #  - name: "Marstek AC Offgrid Voltage"
 #    platform: modbus_controller
