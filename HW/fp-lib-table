@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ttgo-tdisplay-kicad-master")(type "KiCad")(uri "${KIPRJMOD}/ttgo-tdisplay-kicad-master")(options "")(descr ""))
+  (lib (name "RS485TTLModule")(type "KiCad")(uri "${KIPRJMOD}/RS485TTLModule.pretty")(options "")(descr ""))
+  (lib (name "BuckBoost5VModule")(type "KiCad")(uri "${KIPRJMOD}/BuckBoost5VModule.pretty")(options "")(descr ""))
+)
