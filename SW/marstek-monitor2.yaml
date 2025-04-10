@@ -116,6 +116,7 @@ display:
           it.printf(0, 20, id(roboto_small), "Temperature. %.0f C", id(marstek_internal_temperature).state);
 
 # Configure UART
+# WARNING For HW v0.1 GPIO12 is used for RX. This can lead to issues (strapping pin)
 uart:
   - id: mod_bus
     rx_pin: GPIO12
