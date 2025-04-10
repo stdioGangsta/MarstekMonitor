@@ -25,8 +25,9 @@ Charging Strategy (Auto, AI, Custom)
 
 -(optional) Can be connected to WiFi to monitor/control the battery remotely (eg. Home Assisstant)
 
-## HW V0.1
+## HW v0.1
 HW v0.1 is meant to be a proof of concept only. It consists of nothing more than a carrier board for the various modules.
+
 09-04-2025: v0.1 assembled and working! There are a few minor issues that will be solved in the next version. See below.
 
 Partlist:
@@ -41,10 +42,10 @@ Partlist:
 
 ### Known issues with HW v0.1
 These will be solved in the next HW iteration
--GPIO12 used for RS485. GPIO12 is an ESP32 strapping pin. This can cause issues on reset.
--Switch to right-angle JST-XH connector
--Footprint for Buck-boost and RS485 module: TH diameter slighty too small. Modules fit, but need to be forced in.
--Silkscreen for Lilygo T-display does not match actual footprint
--Panel mount Weipu 6p connector does not seem to exist. 
+1. GPIO12 used for RS485. GPIO12 is an ESP32 strapping pin. This can cause issues on reset.
+2. Switch to right-angle JST-XH connector
+3. Footprint for Buck-boost and RS485 module: TH diameter slighty too small. Modules fit, but need to be forced in.
+4. Silkscreen for Lilygo T-display does not match actual footprint
+5. Panel mount Weipu 6p connector does not seem to exist. 
 
 
