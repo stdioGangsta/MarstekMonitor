@@ -1,0 +1,5 @@
+Release note for v0.1
+!! v0.1 is not a stable release and is not recommended for end users !!
+
+HW v0.1 contains no 3D printed enclosure and is only for proof-of-concept testing
+The PCB has a known issue: The RX pin on T-DISPLAY ESP32 uses GPIO12. This is also a strapping pin and can lead to problems
