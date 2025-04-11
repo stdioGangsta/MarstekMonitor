@@ -42,13 +42,17 @@ HW v0.1 is meant to be a proof of concept only. It consists of nothing more than
 
 09-04-2025: v0.1 assembled and working! There are a few minor issues that will be solved in the next version. See below.
 
+![case](MarstekMonitor_case.jpg)
+![open](MarstekMonitor_open.jpg)
+![attached](MarstekMonitor_attached.jpg)
+
 Partlist:
 1. MarstekMonitor v0.1 PCB 
 2. LilyGo ESP32 T-Display v1.1 [link](https://www.tinytronics.nl/en/development-boards/microcontroller-boards/with-wi-fi/lilygo-ttgo-t-display-v1.1-esp32-with-1.14-inch-tft-display "Webshop").
 3. Buck-Boost converter [link](https://www.tinytronics.nl/en/power/voltage-converters/buck-boost-(step-up-down)-converters/dc-dc-step-up-down-buck-boost-converter-0.6a-5v-output "Webshop").
 4. RS485-Serial module <link>.
-5. 3d Printed enclosure (TODO)
-6. Weipu RS485 connector (TODO add exact partnumber)
+5. 3d Printed enclosure 
+6. RS485 Connector: Weipu SP17, 5pin male connector. 
 
 ![HW V0.1](MarstekMonitorHWv0.1.png)
 
