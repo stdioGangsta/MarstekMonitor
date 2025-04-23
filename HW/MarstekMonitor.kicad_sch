@@ -1948,10 +1948,6 @@
 		(uuid "361582ed-4e16-4516-85d8-7ee0efacae70")
 	)
 	(no_connect
-		(at 127 77.47)
-		(uuid "3b8294d6-3cea-4657-a1c9-c68be96cc02a")
-	)
-	(no_connect
 		(at 154.94 67.31)
 		(uuid "3ed7b4c0-988e-4ad7-ae3e-f906fdd3836b")
 	)
@@ -1974,6 +1970,10 @@
 	(no_connect
 		(at 154.94 80.01)
 		(uuid "aa36ac1a-7fd1-4cfe-9800-b435f1e324a0")
+	)
+	(no_connect
+		(at 127 82.55)
+		(uuid "b9635e2f-b026-48f6-a60c-3455591cf8b6")
 	)
 	(no_connect
 		(at 154.94 77.47)
@@ -2329,16 +2329,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 82.55) (xy 127 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5bee6ef-7c3c-4d3f-98e5-9eb3e603a845")
-	)
-	(wire
-		(pts
 			(xy 127 86.36) (xy 127 87.63)
 		)
 		(stroke
@@ -2356,6 +2346,16 @@
 			(type default)
 		)
 		(uuid "cbc7be0b-58e5-46df-bb2f-b4020bd086f9")
+	)
+	(wire
+		(pts
+			(xy 119.38 77.47) (xy 127 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4de8d5a-3cad-4115-a91a-0f7061f619b0")
 	)
 	(wire
 		(pts
@@ -2468,7 +2468,7 @@
 		(uuid "bb8d0ae8-0b74-469a-8a30-5cae97c0e4ac")
 	)
 	(label "RXD"
-		(at 119.38 82.55 0)
+		(at 119.38 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
