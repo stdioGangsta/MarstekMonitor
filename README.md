@@ -8,6 +8,10 @@ Thanks to Superduper1969 and Tweakers (in Dutch) for EPSHome config and Modbus c
 
 https://gathering.tweakers.net/forum/list_messages/2282240/0
 
+WARNING:
+Marstek has different versions of the Venus battery systems. The pinout of the RS485 connector is slightly different.
+Currently, MarstekMonitor only supports Gen1 out of the box. Future versions will support all currently known models.
+
 ## Main features
 -Plugs directly into the RS485 port on the side of the battery
 
